@@ -1,0 +1,15 @@
+Recall
+Copyright 2026 Recall contributors. Original application code: MIT.
+
+Includes adapted contributions from:
+Copyright 2015 Donne Martin — interactive-coding-challenges — Apache-2.0.
+Copyright 2017 Donne Martin — system-design-primer — CC-BY-4.0.
+Doocs contributors — doocs/leetcode — CC-BY-SA-4.0.
+Copyright (c) 2022 neetcode-gh — neetcode-gh/leetcode — MIT.
+DM Sans Project Authors (2014) and Manrope Project Authors (2018) — SIL OFL 1.1.
+
+Source URLs, modifications, per-file/per-snippet notices, and license scope:
+THIRD_PARTY_NOTICES.md, CONTENT_LICENSE.md, public/credits.html,
+public/media-credits.json, and source/leetcode/reference-solutions.json.
+Complete license texts are bundled in public/licenses/.
+Recall is independent; source attribution does not imply endorsement.

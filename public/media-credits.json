@@ -1,0 +1,245 @@
+{
+  "reviewedAt": "2026-10-17",
+  "assets": [
+    {
+      "path": "media-primer/4edXG0T.png",
+      "sha256": "a978d3792ad7088935f8fff137cc38392ee6f547b5e7c06f0bc4e99e0cd6fcc0",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/4edXG0T.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/pastebin.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326048921"
+      ]
+    },
+    {
+      "path": "media-primer/4j99mhe.png",
+      "sha256": "0add63466555e5b378d54b0a223b010dd35930a0b536b93ceb73dee80cb334e0",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/4j99mhe.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/query_cache.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326143458"
+      ]
+    },
+    {
+      "path": "media-primer/MzExP06.png",
+      "sha256": "b8db8707b6e52e4b89aeb118c3dd3f8c2634d4be3bc0bc60a3d58e8b69146428",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/MzExP06.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/sales_rank/sales_rank.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326065427"
+      ]
+    },
+    {
+      "path": "media-primer/V5q57vU.png",
+      "sha256": "a17f30f093921f143d53115fdce50ecf18c6c7888ed7614b110b0b8536521ed3",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/V5q57vU.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/mint/mint.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326031680"
+      ]
+    },
+    {
+      "path": "media-primer/bWxPtQA.png",
+      "sha256": "e7cf3121a4e1da52df5d78cca8ef75a0f6d95d23fef8b3bc9faf90b6d8886c4a",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/bWxPtQA.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/web_crawler.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326082310"
+      ]
+    },
+    {
+      "path": "media-primer/cdCv5g7.png",
+      "sha256": "3ddaad49d0e6f990a85005d48d1bac2f7f3a0b669398fe6730f2831310def2eb",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/cdCv5g7.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/social_graph/social_graph.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326097231"
+      ]
+    },
+    {
+      "path": "media-primer/jj3A5N8.png",
+      "sha256": "963c16b9d49f788d04bbe0ed2d74de50e438a47426e37fe9393a416121970686",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/jj3A5N8.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_7.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/jrUBAF7.png",
+      "sha256": "c3a14a67452816f4eebb9f506324b3977810887900948a37558d8dac047db287",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/images/jrUBAF7.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/twitter.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326111151"
+      ]
+    },
+    {
+      "path": "media-primer/mint_basic.png",
+      "sha256": "3803cb41accdc6d8881fc315847dfa9192541552d52d221736960bff7796f160",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/mint/mint_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/mint/mint_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326031680"
+      ]
+    },
+    {
+      "path": "media-primer/pastebin_basic.png",
+      "sha256": "54c2e34b0f9e3e0049c68c6ce741c90bd5f3bc014ac4981fe8e2a7f284c90fcd",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/pastebin/pastebin_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/pastebin_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326048921"
+      ]
+    },
+    {
+      "path": "media-primer/query_cache_basic.png",
+      "sha256": "4089a79a5b2e340f23b26ae517db754e0d35a7b2ae26d909532ffbbe6eee9a1c",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/query_cache/query_cache_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/query_cache_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326143458"
+      ]
+    },
+    {
+      "path": "media-primer/sales_rank_basic.png",
+      "sha256": "b91c6cbad188086c97bfea18cf7dda9d425b29062580e9bad7f4f65b337995b2",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/sales_rank/sales_rank_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/sales_rank/sales_rank_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326065427"
+      ]
+    },
+    {
+      "path": "media-primer/scaling_aws_1.png",
+      "sha256": "7c1d33e2b14e62ecd6ff88132b3afbb813faf5e1b1de2084fddbd27dde0f9078",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/scaling_aws/scaling_aws_1.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_1.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/scaling_aws_2.png",
+      "sha256": "69c96e78a98b07877fbab73125057be1425fcc39a5718e94f33c32b22f358558",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/scaling_aws/scaling_aws_2.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_2.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/scaling_aws_3.png",
+      "sha256": "7ecdd1d635af95097ea3887838738fd953763ccb6a3b75607eff1bab6a1f53da",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/scaling_aws/scaling_aws_3.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_3.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/scaling_aws_4.png",
+      "sha256": "a89efd74b29a02e4fcb6512c7fe16381f01e8eb8b329b551e20a6d4c80081680",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/scaling_aws/scaling_aws_4.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_4.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/scaling_aws_5.png",
+      "sha256": "1fd5ac252fc7dedfde0fa59e42240273533e798b3be10e5cf24e29c6059f6dfc",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/scaling_aws/scaling_aws_5.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/scaling_aws_5.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326161319"
+      ]
+    },
+    {
+      "path": "media-primer/social_graph_basic.png",
+      "sha256": "1fe26a9a8da74e685824663982ea72de4b68cad6b7b901b8e066b80c411fdd64",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/social_graph/social_graph_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/social_graph/social_graph_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326097231"
+      ]
+    },
+    {
+      "path": "media-primer/twitter_basic.png",
+      "sha256": "de52699f64f998ea8dab312485d1ff2ac179d7b0bb7396e48734fc57ec9ffb48",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/twitter/twitter_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/twitter_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326111151"
+      ]
+    },
+    {
+      "path": "media-primer/web_crawler_basic.png",
+      "sha256": "b03f590cddb5ff10f76da4ee3436554041926ebcdeb52d869bf1ce3357cfec71",
+      "author": "Donne Martin and system-design-primer contributors",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/solutions/system_design/web_crawler/web_crawler_basic.png",
+      "contextUrl": "https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/web_crawler_basic.png",
+      "changes": "Packaged for offline use; image pixels unchanged.",
+      "cardIds": [
+        "system-exercises-1482326082310"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import {makeReadingIndex,filterReading,parseReadingRoute,readingHash,PAGE_SIZE} from '../public/reader-model.js';
+const publicFile=f=>new URL('../public/'+f,import.meta.url);
+const library=JSON.parse(await readFile(publicFile('library.json'))),order=JSON.parse(await readFile(publicFile('reading-order.json')));
+const index=makeReadingIndex(order,library.cards);
+assert.equal(index.entries.length,533);assert.equal(index.chapters.length,36);
+const pages=Array.from({length:Math.ceil(index.entries.length/PAGE_SIZE)},(_,i)=>index.entries.slice(i*PAGE_SIZE,(i+1)*PAGE_SIZE));
+assert.equal(new Set(pages.flat().map(e=>e.card.id)).size,533);
+assert.deepEqual(pages.flat().map(e=>e.card.id),order.chapters.flatMap(c=>c.cardIds));
+assert.equal(index.entries[0].card.title,'Reverse a string');
+for(const chapter of index.chapters){
+ const selected=filterReading(index.entries,{chapter:chapter.id,q:'',collection:''});
+ assert.deepEqual(selected.map(e=>e.card.id),chapter.cardIds);
+ for(const deck of library.decks)assert.deepEqual(filterReading(index.entries,{chapter:chapter.id,collection:deck.id,q:''}).map(e=>e.card.id),selected.filter(e=>e.card.deckId===deck.id).map(e=>e.card.id));
+}
+const selection={id:'modern-021',chapter:index.byId.get('modern-021').chapter.id,collection:'modern',difficulty:'',list:'',q:'cache misses & concurrency',unread:true,page:2};
+assert.deepEqual(parseReadingRoute(readingHash(selection),index),selection);
+assert.equal(filterReading(index.entries,{q:'CACHE MISSES'}).some(e=>e.card.id==='modern-021'),true);
+assert.equal(filterReading(index.entries,{q:'no-such-topic-xyzzzz'}).length,0);
+assert.equal(filterReading(index.entries,{q:'',unread:true},index.entries.slice(0,10).map(e=>e.card.id)).length,523);
+assert.equal(parseReadingRoute('#library?chapter=missing&page=-3&collection=missing',index).page,1);
+assert.equal(parseReadingRoute('#library?chapter=missing&page=Infinity&collection=missing',index).chapter,'');
+const source=await readFile(publicFile('app-v2.js'),'utf8');
+const validId=id=>typeof id==='string'&&/^[a-z0-9][a-z0-9-]{0,99}$/i.test(id)&&!['constructor','prototype','__proto__'].includes(id);
+const validate=vm.runInNewContext('('+source.slice(source.indexOf('function validate('),source.indexOf('\ntry{const old='))+')',{validId});
+const existing={reviews:{},saved:[],notes:{},history:[]};
+assert.equal(validate(existing).reading.read.length,0);
+const restored=validate({...existing,reading:{read:['modern-021','modern-021','__proto__'],last:'modern-021'}});
+assert.equal(restored.reading.read.length,1);assert.equal(restored.reading.last,'modern-021');
+assert.equal(Object.keys(restored.reviews).length,0);assert.equal(restored.history.length,0);
+const offline=JSON.parse(await readFile(publicFile('offline-assets.json')));
+for(const file of ['reader.js','reader-model.js','reader.css','reading-order.json'])assert.ok(offline.assets.includes('./'+file));
+console.log('PASS: 533 articles in curated pagination; 36 topic filters; combined source/search/unread filters; deep-link round trips; reading backup migration; complete offline reader assets.');

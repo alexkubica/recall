@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.apkg
+*.log
+*.pem
+*.key
+work/
+runtime/
+dist/
+.vercel/
+recall-progress-*.json
